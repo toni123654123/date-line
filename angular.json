@@ -31,9 +31,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "node_modules/bootstrap/dist/css/bootstrap.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -127,5 +129,8 @@
       }
     }
   },
-  "defaultProject": "time-live"
+  "defaultProject": "time-live",
+  "cli": {
+    "analytics": "1427d07b-755a-435a-bca7-3d8caa434d99"
+  }
 }
